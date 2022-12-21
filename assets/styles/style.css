@@ -1,0 +1,794 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+nav{
+    width: 100%;
+    
+    
+}
+.profile{
+    width: 90%;
+    display: block;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text{
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-size: 26px;
+    line-height: 38px;
+}
+
+.flex2{
+    width: 90%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    border: 1px  solid #D9D9D9;
+    border-radius: 10px;
+    gap: 10%;
+    text-align: center;
+    align-items: center;
+}
+.flex2 img{
+    margin-left: 1rem;
+}
+.flex2 input{
+    border: none;
+     height: 40px;
+     padding-left: 1rem;
+    outline: none;
+}
+.flex3{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.flex3 .meat {
+    width: 70%;
+    margin: auto;
+    top: 2%;
+    height: 30px;
+    background-color: #D9D9D9;
+     justify-items: center;
+    border: 1px solid #D9D9D9;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.land{
+    width: 90%;
+    margin: auto;
+    margin-top: 3rem;
+}
+.land .first{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+.land .first p{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.land .first a{
+    font-size: 15px;
+   color: #E81F2B;
+   text-decoration: none;
+}
+
+
+.food{   
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10rem;
+}
+.food .cards{
+    background-color: #eeeeee;
+    border-radius: 20px;
+    margin-bottom: 3rem;
+    width: 90%;
+}
+.food .cards img{ 
+    margin-top: -2rem;
+}
+.food .cards h5{
+    font-size: 20px;
+}
+.food .cards p{
+    font-size: 17px;
+    color:#A5A1A1;
+}
+.food .cards h4{
+    font-size: 24px;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+footer{
+    width: 100%;
+    background-color: #DFDFDF;
+    border-radius: 10px;
+    height: 70px;
+    margin-top: -5.5rem;
+    position: relative;
+    margin-top: 2rem;
+
+}
+footer .foot{ 
+    width: 90%;
+    margin: auto;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .search{ 
+    margin-top: -3rem;
+    margin-right: 2rem;
+}
+
+
+
+/* JOLLOF RICE SECTION */
+section{
+    width: 100%;
+    margin: auto;
+}
+.sub-title{
+    width: 90%;
+    padding-top: 3rem;
+    text-align: center;
+    
+}
+.sub-title p{
+   
+   font-size: 12px;
+}
+.love{
+    width: 30%;
+    margin: auto;
+    text-align: end;
+    margin-left: 15rem;
+}
+.jollof{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.new{
+    width: 100%;
+}
+.new img{
+    width: 80%;
+    margin: 20px;
+   /* padding: 20px; */
+}
+.flex4{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.paragraph{
+    width: 80%;
+    padding-top: 1rem;
+    margin: auto;
+}
+.paragraph p{
+    color: #BFBFBF;
+}
+.dolar-box{
+     width: 80%;
+    margin: auto;
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    padding-top: 3rem;
+    justify-content: space-between;
+}
+.dolar-box .dolar h3{
+    font-size: 32px;    
+}
+.dolar-box .box{ 
+    width: 40%;
+    background-color: #E81F2B;
+    display: flex;
+    justify-content: center;
+    height: 1.8rem;
+    border-radius: 50px;
+}
+.dolar-box .box .whitebox{ 
+   background-color: #DFDFDF;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 40%;
+    border-radius: 40%;
+    text-align: center;
+}
+
+ 
+ 
+
+
+/*  MAP-LOCATON */
+section{
+    width: 100%;
+    position: absolute;
+}
+.background{
+        width: 100%;
+        background-image: url("../images/map.png");
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        /* object-fit: cover; */
+        /* background-size: cover;
+        position: relative; */
+}
+section .searchicon{
+    width: 100%;
+    display: flex;
+    background-color: #EBE9E9;
+    border-radius: 10px;
+    height: 60px;
+    align-items: center;
+    top: 23%;
+    position: absolute;
+    justify-content: space-between;
+}
+section .searchicon .img{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+ .searchicon img{
+    width: 85%;
+    margin: auto;
+
+}
+ .searchicon p{
+    width: 85%;
+    font-size: 24px;
+    color: #CCCCCC;
+}
+
+
+
+
+/* CHECK OUT LIST */
+.logo{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding-top: 1.5rem;
+    gap: 40%;
+}
+.logo img{
+   padding-left: 5px;
+  
+}
+.logo p{
+    font-weight: 700;
+}
+.jollof-menu{
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+    display: flex;
+    border: 1px solid #F0EFEF;
+    border-radius: 10px;
+    height: 60px;
+    align-items: center;
+    background-color: #F0EFEF;
+    gap: 25%;
+}
+.jolofrice{
+    width: 10%;
+    text-align: center;
+}
+.jolofrice img{
+    width: 2rem;
+    margin: auto;
+    margin: auto;
+}
+.jollof-menu .price{
+    width: 70%;
+    text-align: left;
+}
+.jollof-menu .price P{
+    width: 100%; 
+}
+
+.jollof-menu .plus{
+    display: flex;
+    width: 40%;
+   justify-content: end;
+    height: 60px;
+    align-items: center;
+}
+.jollof-menu .plus p{
+    color: #A5A1A1;
+    width: 30%;
+}
+.jollof-menu .plus H5{
+    color: #A5A1A1;
+    width: 30%;
+}
+.delivery{
+    width: 50%;
+  padding-top: 2rem;
+   padding-left: 1rem;
+}
+.delivery{
+    width: 50%;
+  padding-top: 2rem;
+   padding-left: 1rem;
+}.delivery p{
+    font-size: 24px;
+    padding-bottom: 1rem;
+    color: #000000;
+    font-weight: 700;
+}
+.houseaddress{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    border-radius: 10px;
+    padding: 1rem 0.7rem;
+    background-color: #F0EFEF;
+    justify-content: space-between;
+}
+.houseaddress h4 span{
+    width: 100%;
+    color: #0DF8EA;
+}
+.payment{
+    width: 90%;
+    margin: auto;
+    padding-top: 1rem;
+
+}
+.Line1{
+    padding-top: 1rem;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+.futa{
+    width: 90%;
+    margin: auto;
+    padding-top: 1rem;
+    display: flex;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* MEDIA QUERY */
+@media screen and (min-width:1000px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    nav{
+        width: 100%;
+        
+        
+    }
+    .profile{
+        width: 90%;
+        display: flex;
+        margin: auto;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .profile .profile-pic{
+        display: none;
+     }
+     
+    .text{
+        width: 90%;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        font-size: 26px;
+        line-height: 38px;
+    }
+    
+    .flex2{
+        width: 90%;
+        margin: auto;
+        height: 50px;
+        display: flex;
+        border: 1px  solid #D9D9D9;
+        border-radius: 10px;
+        gap: 10%;
+        text-align: center;
+        align-items: center;
+    }
+    .flex2 img{
+        margin-left: 1rem;
+    }
+    .flex2 input{
+        border: none;
+         height: 40px;
+         padding-left: 1rem;
+        outline: none;
+    }
+    .flex3{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+       
+    }
+    .flex3 .meat {
+        width: 70%;
+        margin: auto;
+        top: 2%;
+        background-color: #D9D9D9;
+         justify-items: center;
+        border: 1px solid #D9D9D9;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .land{
+        width: 90%;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .land .first{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        align-items: center;
+    }
+    .land .first p{
+        font-size: 22px;
+        font-weight: 700;
+    }
+    
+    .land .first a{
+        font-size: 15px;
+       color: #E81F2B;
+       text-decoration: none;
+    }
+    
+    
+    .food{   
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top: 10rem;
+        grid-template-areas: "one two three";
+    }
+    .food .cards{
+        background-color: #eeeeee;
+        border-radius: 20px;
+        margin-bottom: 3rem;
+        width: 90%;
+    }
+    .food .cards img{ 
+        margin-top: -2rem;
+    }
+    .food .cards h5{
+        font-size: 20px;
+    }
+    .food .cards p{
+        font-size: 17px;
+        color:#A5A1A1;
+    }
+    .food .cards h4{
+        font-size: 24px;
+        margin-top: 1rem;
+        font-weight: 700;
+    }
+    
+    footer{
+        width: 100%;
+        background-color: #DFDFDF;
+        border-radius: 10px;
+        height: 70px;
+        margin-top: -5.5rem;
+        position: relative;
+        margin-top: 2rem;
+    }
+    footer .foot{ 
+        width: 90%;
+        margin: auto;
+        display: flex;
+        height: 70px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer .search{ 
+        margin-top: -3rem;
+        margin-right: 2rem;
+    }
+    
+    
+    
+    /* JOLLOF RICE SECTION */
+    section{
+        width: 100%;
+        margin: auto;
+    }
+    .sub-title{
+        width: 90%;
+        padding-top: 3rem;
+        text-align: center;
+        
+    }
+    .sub-title p{
+       
+       font-size: 12px;
+    }
+    .love{
+        width: 30%;
+        margin: auto;
+        text-align: end;
+        margin-left: 15rem;
+    }
+    .jollof{
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    .new{
+        width: 100%;
+    }
+    .new img{
+        width: 80%;
+        margin: 20px;
+       /* padding: 20px; */
+    }
+    .flex4{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .paragraph{
+        width: 80%;
+        padding-top: 1rem;
+        margin: auto;
+    }
+    .paragraph p{
+        color: #BFBFBF;
+    }
+    .dolar-box{
+         width: 80%;
+        margin: auto;
+        display: flex;
+        height: 20vh;
+        align-items: center;
+        padding-top: 3rem;
+        justify-content: space-between;
+    }
+    .dolar-box .dolar h3{
+        font-size: 32px;    
+    }
+    .dolar-box .box{ 
+        width: 40%;
+        background-color: #E81F2B;
+        display: flex;
+        justify-content: center;
+        height: 1.8rem;
+        border-radius: 50px;
+    }
+    .dolar-box .box .whitebox{ 
+       background-color: #DFDFDF;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        width: 40%;
+        border-radius: 40%;
+        text-align: center;
+    }
+    
+     
+     
+    
+    
+    /*  MAP-LOCATON */
+    section{
+        width: 100%;
+        position: absolute;
+    }
+    .background{
+            width: 100%;
+            background-image: url("../images/map.png");
+            height: 100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: relative;
+            /* object-fit: cover; */
+            /* background-size: cover;
+            position: relative; */
+    }
+    section .searchicon{
+        width: 100%;
+        display: flex;
+        background-color: #EBE9E9;
+        border-radius: 10px;
+        height: 60px;
+        align-items: center;
+        top: 23%;
+        position: absolute;
+        justify-content: space-between;
+    }
+    section .searchicon .img{
+        width: 15%;
+        display: flex;
+        align-items: center;
+        height: 100%;
+    
+    }
+     .searchicon img{
+        width: 85%;
+        margin: auto;
+    
+    }
+     .searchicon p{
+        width: 85%;
+        font-size: 24px;
+        color: #CCCCCC;
+    }
+    
+    
+    
+    
+    /* CHECK OUT LIST */
+    .logo{
+        width: 90%;
+        display: flex;
+        margin: auto;
+        padding-top: 1.5rem;
+        gap: 40%;
+    }
+    .logo img{
+       padding-left: 5px;
+      
+    }
+    .logo p{
+        font-weight: 700;
+    }
+    .jollof-menu{
+        width: 90%;
+        margin: auto;
+        margin-top: 4rem;
+        display: flex;
+        border: 1px solid #F0EFEF;
+        border-radius: 10px;
+        height: 60px;
+        align-items: center;
+        background-color: #F0EFEF;
+        gap: 25%;
+    }
+    .jolofrice{
+        width: 10%;
+        text-align: center;
+    }
+    .jolofrice img{
+        width: 2rem;
+        margin: auto;
+        margin: auto;
+    }
+    .jollof-menu .price{
+        width: 70%;
+        text-align: left;
+    }
+    .jollof-menu .price P{
+        width: 100%; 
+    }
+    
+    .jollof-menu .plus{
+        display: flex;
+        width: 40%;
+       justify-content: end;
+        height: 60px;
+        align-items: center;
+    }
+    .jollof-menu .plus p{
+        color: #A5A1A1;
+        width: 30%;
+    }
+    .jollof-menu .plus H5{
+        color: #A5A1A1;
+        width: 30%;
+    }
+    .delivery{
+        width: 50%;
+      padding-top: 2rem;
+       padding-left: 1rem;
+    }
+    .delivery{
+        width: 50%;
+      padding-top: 2rem;
+       padding-left: 1rem;
+    }.delivery p{
+        font-size: 24px;
+        padding-bottom: 1rem;
+        color: #000000;
+        font-weight: 700;
+    }
+    .houseaddress{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        border-radius: 10px;
+        padding: 1rem 0.7rem;
+        background-color: #F0EFEF;
+        justify-content: space-between;
+    }
+    .houseaddress h4 span{
+        width: 100%;
+        color: #0DF8EA;
+    }
+    .payment{
+        width: 90%;
+        margin: auto;
+        padding-top: 1rem;
+    
+    }
+    .Line1{
+        padding-top: 1rem;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .futa{
+        width: 90%;
+        margin: auto;
+        padding-top: 1rem;
+        display: flex;
+        padding-bottom: 1rem;
+        justify-content: space-between;
+    }
+
+}
